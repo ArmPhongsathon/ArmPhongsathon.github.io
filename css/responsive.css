@@ -1,0 +1,77 @@
+/* 1200 */
+@media only screen and (max-width: 1200px) {
+    .logo a{
+        font-size: 1.9rem;
+    }
+    .homepage-menu a{
+        font-size: 0.9rem;
+    }
+    .text-content span {
+        font-size: 2.7rem;
+    }
+    .profile{
+        width: 35rem;
+        padding: 2rem;
+    }
+    .text-about h1{
+        font-size: 1.5rem;
+        margin-bottom: 0.6rem;
+    }
+    .icon{
+        margin-bottom: 0.5rem; 
+    }
+    .icon i{
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+     }
+    .icon i span{
+        margin-left: 0.7rem;
+    }
+    .icon-contact i{
+        font-size: 1.2rem;
+        margin-bottom: 0.8rem;
+    }
+}
+/* 1200 */
+
+
+/* 1024 */
+@media only screen and (max-width: 1024px) {
+    
+}
+/* 1024 */
+
+
+/*  900 */
+@media only screen and (max-width: 900px) {
+    
+}
+/*  900 */
+
+
+/* 768 */
+@media only screen and (max-width: 768px) {
+    
+}
+/* 768 */
+
+
+/* 600 */
+@media only screen and (max-width: 600px) {
+    
+}
+/* 600 */
+
+
+/* 480 */
+@media only screen and (max-width: 480px) {
+    
+}
+/* 480 */
+
+
+/* 320 */
+@media only screen and (max-width: 320px) {
+    
+}
+/* 320 */
