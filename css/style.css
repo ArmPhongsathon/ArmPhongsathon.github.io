@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500;600&family=Overpass:wght@500&display=swap');
+html{
+   scroll-behavior: smooth;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Hind Madurai', sans-serif;
+   font-family: 'Overpass', sans-serif;
+   letter-spacing: 0.5px;
+}
+/* เปิด เมนู */
+.homepage-content{
+   width: 100%;
+   height: 100vh;
+   background-image: url('/img/1.1.jpg');
+   background-repeat: no-repeat; 
+   background-size: cover;
+   background-position: center; 
+}
+.logo a{
+   position: relative;
+   right: 15px;
+   font-size: 2rem;
+   color: #fff;
+   text-decoration: none;
+   cursor: pointer;
+}
+.homepage-menu-content{
+   width: 100%;
+   height: 3.5rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: fixed;
+   padding: 0 6rem;
+   background-color: rgba(0, 0, 0, 0.5);
+   backdrop-filter: blur(50px);
+   z-index: 999;
+}
+.homepage-menu-content a{
+   color: #fff;
+   margin-left: 15px;
+   font-weight: 600;
+   text-decoration: none;
+   transition: .2s;
+   position: relative;
+   top: 2px;
+}
+.homepage-menu a:hover{
+   padding:5px 0;
+   text-shadow: 0 0 1rem;
+}
+.homepage-menu a:focus{
+   color: red;
+}
+/* ปิด เมนู */
+
+
+/* เปิด หน้าหลัก */
+.text-content{
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: default;
+}
+.text-content span {
+   font-weight: 600;
+   text-shadow: 0 0 1rem black;
+   font-size: 3.5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   animation: waviy 1s infinite;
+   animation-delay: calc(.1s * var(--i));
+ }
+ @keyframes waviy {
+   0%,40%,100% {
+     transform: translateY(0)
+   }
+   20% {
+     transform: translateY(-10px)
+   }
+ }
+/* ปิด หน้าหลัก */
+
+/* เปิด หน้าที่ 2 */
+.content-2{
+   width: 100%;
+   height: 100vh;
+   background-image: url('/img/2.jpg');
+   background-repeat: no-repeat; 
+   background-size: cover;
+   background-position: center; 
+}
+.profile{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 44rem;
+   padding: 2.5rem;
+   border-radius: 5px;
+   background-color: rgba(203, 246, 252, 0.5);
+}
+.profile-img{
+   width: 100%;
+}
+.profile-img img{
+   width: 100%;
+   overflow: visible;
+}
+.text-about{
+   margin-left: 2rem;
+}
+.text-about h1{
+   font-size: 1.9rem;
+   text-shadow: 0 0 0.5rem black;
+   color: #000000;
+   margin-bottom: 1.5rem;
+   cursor: default;
+}
+.icon{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1rem;
+}
+.icon i{
+   margin-bottom: 0.8rem;
+   color: #000000;
+   font-size: 1.2rem;
+   cursor: default;
+}
+.icon i span{
+   margin-left: 1rem;
+}
+
+.icon-contact{
+   display: flex;
+   flex-direction: column;
+}
+.text-span{
+   padding-left: 0.5rem;
+   font-weight: 600;
+}
+.icon-contact i{
+   font-size: 1.4rem;
+   margin-bottom: 0.8rem;
+   color: #000000;
+}
+.icon-contact :hover{
+   color: rgba(255, 255, 255,0.7);
+}
+/* ปิด หน้าที่ 2 */
+
+
+/* เปิด หน้าที่ 3 */
+.content-3{
+   width: 100%;
+   height: 100vh;
+   background-image: url('/img/3.jpg');
+   background-repeat: no-repeat; 
+   background-size: cover;
+   background-position: center; 
+}
+.icon-skill{
+   display: grid;
+   gap: 30px;
+   grid-template-columns: repeat(3,1fr);
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 55rem;
+   height: 20rem;
+   padding: 2rem;
+   border-radius: 5px;
+   background-color: rgba(0, 0, 0, 0.5);
+   backdrop-filter: blur(50px);
+}
+.box-img-skill{
+   display: flex;
+   align-items: center;
+   text-align: center;
+   width:100%;
+}
+.box-img-skill img{
+   width: 50%;
+}
+.box-item{
+   padding-top: 2.5rem;
+   padding-bottom: 2rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   border-radius: 20px;
+   width: 100%;
+   background-color: rgb(0, 0, 0);
+   transition: .4s;
+}
+.box-item:hover{
+   transform: scale(1.1);
+   background: rgba(0,0,0,0.3);
+}
+.box-item h1{
+   margin-top: 0.5rem;
+}
+.box-img-skill h1{
+   font-size: 1.3rem;
+   color: #fff;
+}
+/* ปิด หน้าที่ 3 */
+
+
+/*foter*/
+.foter-1 p{
+   text-align: center;
+   color: #fff;
+   font-size: 0.8rem;
+   padding: 10px 0;
+   background-color: black;
+   text-shadow: 0 0 2rem;
+}
+/*foter*/
+
+
+/* เมนูปิดเปิด*/
+.container {
+   cursor: pointer;
+   display: none;
+ }
+ 
+ .bar1, .bar2, .bar3 {
+   width: 30px;
+   height: 4px;
+   background-color: #fff;
+   margin: 5px 0;
+   transition: 0.4s;
+ }
+ 
+ .change .bar1 {
+   transform: translate(0, 11px) rotate(-45deg);
+ }
+ 
+ .change .bar2 {opacity: 0;}
+ 
+ .change .bar3 {
+   transform: translate(0, -11px) rotate(45deg);
+ }
+/* เมนูปิดเปิด*/
+
+
+/* เปิด แทบเลื่อนดูเว็บไซต์ */
+::-webkit-scrollbar{
+   width: 5px;
+}
+::-webkit-scrollbar-track{
+   background-color: #fff;
+}
+::-webkit-scrollbar-thumb{
+   background-color: rgba(0, 0, 0,0.8);
+   border-radius: 5px;
+}
+/* ปิด แทบเลื่อนดูเว็บไซต์ */
